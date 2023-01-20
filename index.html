@@ -11,13 +11,21 @@
   </head>
   <body class="container-fluid" style="background-color:ivory; min-height: 100vh;">
     <div class="container" style="text-align: center;">
-      <h1 style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 6vw;">Hello, I'm <span style="font-family: 'Playfair Display', serif; font-weight: 600; font-style: italic;">Sarath Sajan</span><br>and I'm a Software Developer</h1>
+      <h1 style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 6vw;">Hello, I'm <span style="font-family: 'Playfair Display', serif; font-weight: 600; font-style: italic;">Sarath Sajan</span><br>and I'm a Software Developer.</h1>
     </div>
     <div class="container">
-      <div class="grid">
-        <div><button style="font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 4px 4px 0px 1px rgb(45, 212, 191); background-color: gold; color: black;">About Me</button></div>
-        <div><button style="font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 4px 4px 0px 1px rgb(45, 212, 191); background-color: gold; color: black;">Projects</button></div>
-        <div><button style="font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 4px 4px 0px 1px rgb(45, 212, 191); background-color: gold; color: black;">Resume</button></div>
+      <div class="grid" style="display:flex; justify-content:space-around;">
+        <div>
+          <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">About Me</button>
+        </div>
+        <div>
+          <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">Projects</button>
+        </div>
+        <div>
+          <a href="resume_sarath.pdf" download="resume_sarath.pdf" style="text-decoration: none;">
+            <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   </body>
