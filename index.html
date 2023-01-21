@@ -4,28 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="css_override.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap">
     <title>Sarath Sajan</title>
   </head>
-  <body class="container-fluid" style="background-color:ivory; min-height: 100vh;">
-    <div class="container" style="text-align: center;">
-      <h1 style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 6vw;">Hello, I'm <span style="font-family: 'Playfair Display', serif; font-weight: 600; font-style: italic;">Sarath Sajan</span><br>and I'm a Software Developer.</h1>
-    </div>
-    <div class="container">
-      <div class="grid" style="display:flex; justify-content:space-around;">
+  <body class="container-fluid">
+    <div class="container-fluid" style="min-height: 20vh;"></div>
+    <div class="container-fluid">
+      <div class="container" style="text-align: center;">
+        <h1 style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 6vw;">Hello, I'm <span style="font-family: 'Playfair Display', serif; font-weight: 600; font-style: italic;">Sarath Sajan</span><br>and I'm a Software Developer.</h1>
+      </div>
+      <div class="container" style="display:flex; justify-content:space-around;">
         <div>
-          <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">About Me</button>
+          <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">About Me</button>
         </div>
         <div>
-          <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">Projects</button>
+          <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">Projects</button>
         </div>
         <div>
-          <a href="resume_sarath.pdf" download="resume_sarath.pdf" style="text-decoration: none;">
-            <button onmousedown="this.style.boxShadow='0px 0px 0px 0px rgb(50, 200, 200)';" onmouseup="this.style.boxShadow='5px 5px 0px 0px rgb(50, 200, 200)';" style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; box-shadow: 5px 5px 0px 0px rgb(50, 200, 200); background-color: gold; color: black;">Resume</button>
+          <a href="resume_sarath.pdf" download="resume_sarath.pdf">
+            <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">Resume</button>
           </a>
         </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="display: flex; align-items: flex-end;">
+      <div class="container" style="text-align: center;">
+        <p>Build with GitHub Pages & Pico.css</p>
       </div>
     </div>
   </body>
