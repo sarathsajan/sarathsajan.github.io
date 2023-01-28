@@ -4,35 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <link rel="stylesheet" href="css_override.css">
+    <link rel="stylesheet" href="css_override_desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap">
     <title>Sarath Sajan</title>
   </head>
   <body class="container-fluid">
-    <div class="container-fluid" style="min-height: 20vh;"></div>
     <div class="container-fluid">
       <div class="container" style="text-align: center;">
         <h1 style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 6vw;">Hello, I'm <span style="font-family: 'Playfair Display', serif; font-weight: 600; font-style: italic;">Sarath Sajan</span><br>and I'm a Software Developer.</h1>
       </div>
-      <div class="container" style="display:flex; justify-content:space-around;">
-        <div>
-          <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">About Me</button>
-        </div>
-        <div>
-          <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">Projects</button>
-        </div>
-        <div>
-          <a href="resume_sarath.pdf" download="resume_sarath.pdf">
-            <button style="min-width: 20vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; border-color: black; border-width: 2px; background-color: gold; color: black;">Resume</button>
+      <div class="container" style="display:flex; justify-content:center;">
+        <div class="container" style="text-align: center; display:flex; justify-content:center;">
+          <a href="https://instagram.com/sarathsajan_" class="buttonlink" target="_blank" rel=noreferrer>
+            <button style="padding: 0px;">
+              <img src="pfp.jpg" style="max-width: 25vw;">
+            </button>
           </a>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid" style="display: flex; align-items: flex-end;">
-      <div class="container" style="text-align: center;">
-        <p>Build with GitHub Pages & Pico.css</p>
+        <div class="container" style="display:flex; flex-direction: column; justify-content: space-evenly;">
+          <a href="https://linkedin.com/in/sarathsajan" class="buttonlink" target="_blank" rel=noreferrer>
+            <button style="max-width: 30vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; background-color: gold; color: black;">About Me</button>
+          </a>
+          <a href="https://github.com/sarathsajan" class="buttonlink" target="_blank" rel=noreferrer>
+            <button style="max-width: 30vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; background-color: gold; color: black;">Projects</button>
+          </a>
+          <a href="resume_sarath.pdf" download="resume_sarath.pdf" class="buttonlink" target="_blank" rel=noreferrer>
+            <button style="max-width: 30vw; font-family: 'EB Garamond'; font-weight: 600; border-radius: 0%; background-color: gold; color: black;">Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   </body>
