@@ -8,7 +8,7 @@ body {
 
 button {
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 0%;
     box-shadow: 5px 5px 0px 0px rgb(50, 200, 200);
 }
